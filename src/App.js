@@ -11,54 +11,91 @@ function App() {
   const columns = React.useMemo(
     () => [
       {
-        Header: "DATE",
-        accessor: "date",
+        Header: "ID",
+        accessor: "id",
       },
       {
-        Header: "ANC",
-        accessor: "anc",
+        Header: "ANESTHETIC",
+        accessor: "anesthetic",
       },
       {
-        Header: "DENTAL",
-        accessor: "dental",
+        Header: "BREAST SCREENING",
+        accessor: "breast_screening",
       },
       {
-        Header: "ENT",
+        Header: "CARDIOLOGY",
+        accessor: "cardiology",
+      },
+      {
+        Header: "EAR NOSE THROAT(ENT)",
         accessor: "ent",
       },
       {
-        Header: "EYS",
-        accessor: "eys",
+        Header: "ELDERLY SERVICES DEPARTMENT",
+        accessor: "eds",
       },
       {
-        Header: "GYANEE",
-        accessor: "gyanee",
-      },
-      {
-        Header : "MEDICINE",
-        accessor : "medicine",
+        Header : "GASTROENTEROLOGY",
+        accessor : "gastroenterology",
 
       },
       {
-        Header : "ORTHO",
-        accessor : "ortho",
+        Header : "GENERAL SURGERY",
+        accessor : "general_surgery",
 
       },
       {
-        Header : "PEADS",
-        accessor : "peads",
+        Header : "GYNECOLOGY",
+        accessor : "gynecology",
       },
       {
-        Header : "SKIN",
-        accessor : "skin"
+        Header : "HEMATOLOGY",
+        accessor : "hematology"
       },
       {
-        Header : "SURGERY",
-        accessor : "surgery"
+        Header : "NEONATAL UNIT",
+        accessor : "neonatal_unit"
       },
       {
-        Header : "TOTAL",
-        accessor : "total"
+        Header : "NEUROLOGY",
+        accessor : "neurology"
+      },
+      {
+        Header : "NUTRITION AND DIETETICS",
+        accessor : "nutrition_and_dietetics"
+        
+      },
+      {
+        Header : "OBSTETRICS AND GYNECOLOGY UNITS",
+        accessor : "obstetrics_and_gynecology_units"
+      },
+      {
+        Header : "ONCOLOGY",
+        accessor : "oncology"
+      },
+      {
+        Header : "OPHTHALMOLOGY",
+        accessor : "opthalmology"
+      },
+      {
+        Header : "ORTHOPEDICS",
+        accessor : "orthopedics"
+      },
+      {
+        Header : "PHYSIOTHERAPY",
+        accessor : "physiotherapy"
+      },
+      {
+        Header : "RENAL UNIT",
+        accessor : "renal_unit"
+      },
+      {
+        Header : "SEXUAL HEALTH",
+        accessor : "sexual_health"
+      },
+      {
+        Header : "UROLOGY",
+        accessor : "urology"
       }
     ],
     []
